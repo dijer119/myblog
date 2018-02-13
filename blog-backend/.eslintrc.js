@@ -13,5 +13,6 @@ module.exports = {
     "no-console": 0,
     "eol-last": 0,
     "semi": 0,
+	  "indent-size": 2,
   }
 };

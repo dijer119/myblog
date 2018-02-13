@@ -17,10 +17,12 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.0",
+    "jest": "^22.3.0",
     "nodemon": "^1.14.11"
   },
   "scripts": {
     "start": "NODE_PATH=src node src",
-    "start:dev": "NODE_PATH=src nodemon --watch src/ src/index.js"
+    "start:dev": "NODE_PATH=src nodemon --watch src/ src/index.js",
+    "test": "jest"
   }
 }

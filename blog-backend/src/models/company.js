@@ -2,9 +2,22 @@ const mongoose = require('mongoose')
 
 const { Schema } = mongoose
 
+// https://www.zerocho.com/category/MongoDB/post/59a1870210b942001853e250 sample
 const Company = new Schema({
-  name: String,
-  code: String,
+  name: {
+  	type: String,
+	  required: true,
+	  unique: true,
+  },
+  code: {
+  	typs: String,
+	  required: true,
+  },
+	type: {
+  	type: String,
+		enum: ['KOSPI', 'KOSDAQ'],
+		required: true
+	},
   createDate: {
     type: Date,
     default: new Date()
@@ -14,3 +27,11 @@ const Company = new Schema({
     default: new Date()
   }
 })
+
+const CompanyModel = mongoose.model('Company', Company)
+
+
+module.exports = {
+	Company,
+	CompanyModel,
+}
