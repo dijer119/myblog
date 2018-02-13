@@ -1,27 +1,18 @@
-const mongoose = require('mongoose')
-mongoose.Promise = global.Promise
 const { CompanyModel } = require('../../models/company')
+require('./mongolocal')
 
-const mongodb = {
-	connection: async() => {
-		await mongoose.connect('mongodb://localhost/blog')
-		console.log('connected to mongodb')
-	},
-	disconnection: async() => {
-		await mongoose.connection.close()
-		console.log('disconnected to mongodb')
-	}
-}
-
-beforeAll(() =>{
-	mongodb.connection()
-})
-afterAll(() => {
-	mongodb.disconnection()
-})
 
 test('', () => {
 	const a = 1
 	expect(a).toBe(1)
+})
+
+test('company create', async() => {
+	const company = await CompanyModel.create({
+		code: '0001',
+		name: 'Naver',
+		type: 'KOSPI',
+	})
+	expect(company.code).toBe('0000')
 })
 

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aca3a8-3f4f-4111-8f9a-6c009705cc30" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog-backend/src/__tests__/models/mongolocal.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintrc.js" afterPath="$PROJECT_DIR$/blog-backend/.eslintrc.js" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/blog-backend/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" afterPath="$PROJECT_DIR$/blog-backend/package.json" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js" afterPath="$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js" />
       <change beforePath="$PROJECT_DIR$/blog-backend/src/models/company.js" afterPath="$PROJECT_DIR$/blog-backend/src/models/company.js" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" afterPath="$PROJECT_DIR$/blog-backend/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +22,7 @@
       <file leaf-file-name="configure.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-frontend/src/store/configure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="0">
               <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
@@ -34,51 +31,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="company.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-backend/src/models/company.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-backend/src/models/post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-frontend/.env">
+      <file leaf-file-name="mongolocal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-backend/src/__tests__/models/mongolocal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-backend/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-backend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +74,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-backend/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="130">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -102,9 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog-backend/src/models/company.js" />
         <option value="$PROJECT_DIR$/blog-backend/package.json" />
         <option value="$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js" />
+        <option value="$PROJECT_DIR$/blog-backend/src/__tests__/models/mongolocal.js" />
+        <option value="$PROJECT_DIR$/blog-backend/src/models/company.js" />
       </list>
     </option>
   </component>
@@ -168,6 +156,14 @@
               <item name="blog-backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -285,8 +281,16 @@
       <updated>1518553986721</updated>
       <workItem from="1518553988232" duration="20000" />
       <workItem from="1518554636752" duration="2123000" />
-      <workItem from="1518558268589" duration="45000" />
+      <workItem from="1518558268589" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="company 테스트 진행중...">
+      <created>1518558338655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518558338655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -295,7 +299,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2188000" />
+    <option name="totallyTimeSpent" value="3203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -324,6 +328,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="company 테스트 진행중..." />
+    <option name="LAST_COMMIT_MESSAGE" value="company 테스트 진행중..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -390,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-frontend/src/store/configure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="0">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
@@ -398,34 +406,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-backend/src/models/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-backend/src/models/company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-backend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-backend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="432">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -438,18 +430,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-backend/.env">
+    <entry file="file://$PROJECT_DIR$/blog-backend/src/models/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="540">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-backend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-backend/src/__tests__/models/company.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-backend/src/__tests__/models/mongolocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-backend/src/models/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>

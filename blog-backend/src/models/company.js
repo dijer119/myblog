@@ -7,11 +7,11 @@ const Company = new Schema({
   name: {
   	type: String,
 	  required: true,
-	  unique: true,
   },
   code: {
-  	typs: String,
+  	type: String,
 	  required: true,
+	  unique: true,
   },
 	type: {
   	type: String,
