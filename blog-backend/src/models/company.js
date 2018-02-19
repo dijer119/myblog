@@ -11,7 +11,6 @@ const Company = new Schema({
   code: {
   	type: String,
 	  required: true,
-	  unique: true,
   },
 	type: {
   	type: String,

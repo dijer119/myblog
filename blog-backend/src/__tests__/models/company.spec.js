@@ -1,7 +1,6 @@
 const { CompanyModel } = require('../../models/company')
 require('./mongolocal')
 
-
 test('', () => {
 	const a = 1
 	expect(a).toBe(1)
