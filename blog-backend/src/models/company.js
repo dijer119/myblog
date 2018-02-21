@@ -17,6 +17,13 @@ const Company = new Schema({
 		enum: ['KOSPI', 'KOSDAQ'],
 		required: true
 	},
+	currentPrice: {
+  	type: Number,
+	},
+
+	tags: {
+  	type: [String],
+	},
   createDate: {
     type: Date,
     default: new Date()

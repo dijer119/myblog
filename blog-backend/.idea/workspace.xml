@@ -17,8 +17,68 @@
       <file leaf-file-name="company.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/__tests__/models/company.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companys.ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/company/companys.ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockapi.spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/stockapi.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stocks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/stocks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="49" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/utils/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/company/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -37,24 +97,14 @@
       <file leaf-file-name="company.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/company.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="279">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comment.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/__tests__/models/comment.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -72,10 +122,15 @@
         <option value="$PROJECT_DIR$/src/api/posts/posts.ctrl.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/models/company.spec.js" />
-        <option value="$PROJECT_DIR$/src/models/company.js" />
         <option value="$PROJECT_DIR$/src/models/comment.js" />
         <option value="$PROJECT_DIR$/src/__tests__/models/comment.spec.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/models/company.spec.js" />
+        <option value="$PROJECT_DIR$/src/api/company/index.js" />
+        <option value="$PROJECT_DIR$/src/api/utils/index.js" />
+        <option value="$PROJECT_DIR$/src/api/company/companys.ctrl.js" />
+        <option value="$PROJECT_DIR$/src/models/company.js" />
+        <option value="$PROJECT_DIR$/src/api/stocks.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/stockapi.spec.js" />
       </list>
     </option>
   </component>
@@ -161,7 +216,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.comment create">
+  <component name="RunManager" selected="Jest. stock api">
+    <configuration name=" stock api" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/stockapi.spec.js" />
+      <test-names>
+        <test-name value=" stock api" />
+      </test-names>
+    </configuration>
     <configuration name="Unnamed" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -195,16 +261,21 @@
         <test-name value="company create" />
       </test-names>
     </configuration>
-    <list size="3">
+    <configuration name="stocks.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="stocks.js" working-dir="$PROJECT_DIR$/src/api" />
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Jest.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Jest.company create" />
       <item index="2" class="java.lang.String" itemvalue="Jest.comment create" />
+      <item index="3" class="java.lang.String" itemvalue="Jest. stock api" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.stocks.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Jest.comment create" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.company create" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.Unnamed" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Jest. stock api" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.stocks.js" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.company create" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.comment create" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.Unnamed" />
       </list>
     </recent_temporary>
   </component>
@@ -224,42 +295,58 @@
       <workItem from="1518298460975" duration="634000" />
       <workItem from="1518337094970" duration="2959000" />
       <workItem from="1518557213411" duration="1036000" />
-      <workItem from="1519077067307" duration="2127000" />
+      <workItem from="1519077067307" duration="9181000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.02.14 at 06h 28m 56s.xml">
-      <configuration name="Unnamed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_stock_api - 2018.02.20 at 09h 44m 58s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.02.20 at 06h 53m 25s.xml">
-      <configuration name="Unnamed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_stock_api - 2018.02.20 at 09h 45m 43s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="comment_create - 2018.02.20 at 07h 20m 14s.xml">
-      <configuration name="comment create" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_stock_api - 2018.02.20 at 09h 46m 02s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="comment_create - 2018.02.20 at 07h 22m 44s.xml">
-      <configuration name="comment create" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_stock_api - 2018.02.20 at 10h 17m 46s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="company_create - 2018.02.20 at 07h 08m 13s.xml">
-      <configuration name="company create" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_stock_api - 2018.02.20 at 10h 21m 23s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_stock_api - 2018.02.20 at 10h 22m 22s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_stock_api - 2018.02.20 at 22h 53m 04s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_stock_api - 2018.02.22 at 08h 09m 47s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_stock_api - 2018.02.22 at 08h 10m 09s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_stock_api - 2018.02.22 at 08h 15m 43s.xml">
+      <configuration name=" stock api" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6756000" />
+    <option name="totallyTimeSpent" value="13810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14752117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14752117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5024184" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49758163" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -278,7 +365,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -370,14 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -394,30 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/models/company.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -430,6 +487,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/company/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/company/companys.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/models/company.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/stocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/stockapi.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>

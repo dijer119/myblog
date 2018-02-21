@@ -12,6 +12,6 @@ test('company create', async() => {
 		name: 'Naver',
 		type: 'KOSPI',
 	})
-	expect(company.code).toBe('0000')
+	expect(company.code).toBe('0001')
 })
 
