@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e47d174c-4445-4e84-9e85-5ee6e428d006" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/common/HeaderConatiner.js" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../blog-backend/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/common/Header/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/PageTemplate/PageTemplate.js" afterPath="$PROJECT_DIR$/src/components/common/PageTemplate/PageTemplate.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/editor/EditorHeader/EditorHeader.js" afterPath="$PROJECT_DIR$/src/components/editor/EditorHeader/EditorHeader.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/stock/Stock.js" afterPath="$PROJECT_DIR$/src/components/stock/Stock.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/editor/EditorHeaderContainer.js" afterPath="$PROJECT_DIR$/src/containers/editor/EditorHeaderContainer.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/api.js" afterPath="$PROJECT_DIR$/src/lib/api.js" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/editor.js" afterPath="$PROJECT_DIR$/src/store/modules/editor.js" />
-    </list>
+    <list default="true" id="e47d174c-4445-4e84-9e85-5ee6e428d006" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -107,8 +96,8 @@
       <file leaf-file-name="EditorHeader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/editor/EditorHeader/EditorHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="342">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -372,12 +361,12 @@
       <workItem from="1518210422259" duration="8622000" />
       <workItem from="1518239285856" duration="20890000" />
       <workItem from="1518554008945" duration="621000" />
-      <workItem from="1519077116938" duration="7806000" />
+      <workItem from="1519077116938" duration="7850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39764000" />
+    <option name="totallyTimeSpent" value="39808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/editor/EditorHeader/EditorHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="342">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
