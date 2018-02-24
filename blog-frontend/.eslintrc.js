@@ -13,5 +13,7 @@ module.exports = {
     "no-console": 0,
     "eol-last": 0,
     "semi": 0,
+    // "intent-size": [true, 2],
+    "indent": ["error", "tab"],
   }
 };
