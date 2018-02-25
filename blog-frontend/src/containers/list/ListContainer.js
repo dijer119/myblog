@@ -32,7 +32,7 @@ class ListContainer extends Component {
 		return(
 			<div>
 				<PostList posts={posts} />
-				<Pagination page={page} lastPage={parseInt(lastPage)} tag={tag}/>
+				<Pagination page={page} lastPage={lastPage} tag={tag}/>
 			</div>
 		)
 	}

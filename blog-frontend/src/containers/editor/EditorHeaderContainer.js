@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import EditorHeader from 'components/editor/EditorHeader'
-import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux'
-import {withRouter} from 'react-router-dom'
+import EditorHeader from '../../components/editor/EditorHeader'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { withRouter } from 'react-router-dom'
 import queryString from 'query-string'
 
-import * as editorActions from 'store/modules/editor'
+import * as editorActions from '../../store/modules/editor'
 
 class EditorHeaderContainer extends Component {
 
