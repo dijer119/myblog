@@ -26,7 +26,7 @@ class HeaderConatiner extends Component {
 
 export default connect(
 	(state) => ({
-
+		// 크게 받아올 state가 없음.
 	}),
 	(dispatch) => ({
 		BaseActions: bindActionCreators(baseActions, dispatch)

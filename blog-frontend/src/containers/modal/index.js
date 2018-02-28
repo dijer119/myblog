@@ -1,1 +1,1 @@
-export { default } from './AskRemoveModalContainer'
+export { default as AskRemoveModalContainer } from './AskRemoveModalContainer'

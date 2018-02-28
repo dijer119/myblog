@@ -6,7 +6,7 @@ import Button from '../../common/Button'
 
 const cx = classNames.bind(styles)
 
-const AskRemoveModal = ({ visible, onConfirm, onCancel}) => (
+const AskRemoveModal = ({ visible, onConfirm, onCancel }) => (
   <ModealWrapper visible={visible}>
     <div className={cx('question')}>
       <div className={cx('title')}>포스트 삭제</div>
