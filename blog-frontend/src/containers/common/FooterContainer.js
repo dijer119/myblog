@@ -5,22 +5,33 @@ import { bindActionCreators } from 'redux'
 import * as baseActions from '../../store/modules/base'
 
 class FooterContainer extends Component {
-  handleClick = async() => {
-    const { BaseActions } = this.props
+  handleLoginClick = async() => {
+    const { BaseActions, logged } = this.props
+    if(logged) {
+      try {
+        await BaseActions.logout()
+        window.location.reload()
+      } catch (e) {
+        console.log(e)
+      }
+      return
+    }
     BaseActions.showModal('login')
+    BaseActions.initializeLoginModal()
   }
 
   render() {
     const { handleLoginClick } = this
+    const { logged } = this.props
     return(
-      <Footer onLoginClick={handleLoginClick} />
+      <Footer onLoginClick={handleLoginClick} logged={logged}/>
     )
   }
 }
 
 export default connect(
   (state) => ({
-
+    logged: state.base.get('logged')
   }),
   (dispatch) => ({
     BaseActions: bindActionCreators(baseActions, dispatch)

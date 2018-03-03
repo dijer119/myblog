@@ -1,7 +1,7 @@
 const { ADMIN_PASS: adminPass } = process.env
 
 exports.login = (ctx) => {
-	const { passwod } = ctx.request.body
+	const { password } = ctx.request.body
 	if (adminPass === password) {
 		ctx.body = {
 			success: true,
@@ -13,15 +13,18 @@ exports.login = (ctx) => {
 		}
 		ctx.status = 401 //Unauthorized
 	}
+	console.log('login success !!')
 }
 
 exports.check = (ctx) => {
 	ctx.body = {
 		logged: !!ctx.session.logged,
 	}
+  console.log('check success !!')
 }
 
 exports.logout = (ctx) => {
 	ctx.session = null
-	ctx.status
+	ctx.status = 204
+  console.log('logout success !!')
 }

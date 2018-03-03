@@ -6,8 +6,15 @@ import * as baseActions from '../../store/modules/base'
 
 class LoginModalContainer extends Component {
 
-  handleLogin = () => {
-
+  handleLogin = async() => {
+    const { BaseActions, password } = this.props
+    try {
+      await BaseActions.login(password)
+      BaseActions.hideModal('login')
+      localStorage.logged = 'true'
+    } catch(e) {
+      console.log(e)
+    }
   }
 
   handleCancel = () => {
@@ -16,11 +23,16 @@ class LoginModalContainer extends Component {
   }
 
   handleChange = (e) => {
+    const { value } = e.target
+    const { BaseActions } = this.props
+    BaseActions.changePasswordInput(value)
 
   }
 
   handleKeyPress = (e) => {
-
+    if(e.key === 'Enter') {
+      this.handleLogin()
+    }
   }
 
   render() {
@@ -43,7 +55,9 @@ class LoginModalContainer extends Component {
 
 export default connect(
   (state) => ({
-    visible: state.base.getIn(['modal', 'login'])
+    visible: state.base.getIn(['modal', 'login']),
+    password: state.base.getIn(['loginModal', 'password']),
+    error: state.base.getIn(['loginModal', 'error'])
   }),
   (dispatch) => ({
     BaseActions: bindActionCreators(baseActions, dispatch)

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Header from 'components/common/Header'
+import Header from '../../components/common/Header'
 import { withRouter } from 'react-router-dom'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import * as baseActions from 'store/modules/base'
 
-class HeaderConatiner extends Component {
+class HeaderContainer extends Component {
 	handleRemove = () => {
 		const { BaseActions } = this.props
 		BaseActions.showModal('remove')
@@ -13,11 +13,12 @@ class HeaderConatiner extends Component {
 
 	render() {
 		const { handleRemove } = this
-		const { match } = this.props
+		const { match, logged } = this.props
 		const { id } = match.params
 		return(
 			<Header
 				postId={id}
+				logged={logged}
 				onRemove={handleRemove}
 			/>
 		)
@@ -27,8 +28,9 @@ class HeaderConatiner extends Component {
 export default connect(
 	(state) => ({
 		// 크게 받아올 state가 없음.
+		logged: state.base.get('logged')
 	}),
 	(dispatch) => ({
 		BaseActions: bindActionCreators(baseActions, dispatch)
 	})
-)(withRouter(HeaderConatiner))
+)(withRouter(HeaderContainer))
