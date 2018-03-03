@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { ListPage, PostPage, EditorPage, NotFoundPage, StockPage } from 'pages'
-
+import Base from '../containers/common/Base'
 const App = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/stock" component={StockPage} />
         <Route component={NotFoundPage}/>
       </Switch>
+      <Base/>
     </div>
   );
 };
