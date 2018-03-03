@@ -42,7 +42,7 @@ const PostList = ({posts}) => {
     }
   )
   return(
-    <div classNames={cx('post-list')}>
+    <div className={cx('post-list')}>
       {postList}
     </div>
   )
