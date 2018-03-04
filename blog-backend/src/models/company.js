@@ -6,16 +6,14 @@ const { Schema } = mongoose
 const Company = new Schema({
   name: {
   	type: String,
-	  required: true,
   },
   code: {
   	type: String,
-	  required: true,
+		index: { unique: true }
   },
 	type: {
   	type: String,
 		enum: ['KOSPI', 'KOSDAQ'],
-		required: true
 	},
 	currentPrice: {
   	type: Number,

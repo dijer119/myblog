@@ -7,13 +7,14 @@ exports.login = (ctx) => {
 			success: true,
 		}
 		ctx.session.logged = true
+		console.log('login success !!')
 	} else {
 		ctx.body = {
 			success: false,
 		}
 		ctx.status = 401 //Unauthorized
+		console.log('login fail !!')
 	}
-	console.log('login success !!')
 }
 
 exports.check = (ctx) => {

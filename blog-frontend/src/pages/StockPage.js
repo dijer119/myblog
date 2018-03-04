@@ -1,8 +1,8 @@
 import React from 'react'
-import Stock from '../components/stock/Stock'
+import StockList from '../components/stock/StockList'
 
 const StockPage = () => (
-	<Stock/>
+	<StockList/>
 )
 
 export default StockPage

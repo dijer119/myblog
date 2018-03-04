@@ -39,7 +39,7 @@ class LoginModalContainer extends Component {
     const {
       handleLogin, handleCancel, handleChange, handleKeyPress
     } = this
-    const { visible } = this.props
+    const { visible, error, password } = this.props
 
     return(
       <LoginModal
@@ -48,6 +48,8 @@ class LoginModalContainer extends Component {
         onChange={handleChange}
         onKeyPress={handleKeyPress}
         visible={visible}
+        error={error}
+        password={password}
       />
     )
   }
