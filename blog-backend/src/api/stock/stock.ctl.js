@@ -1,10 +1,10 @@
-const Company = require('models/company')
+const { CompanyModel } = require('models/company')
 
 exports.write = async (ctx) => {
 	const {
 		code
 	} = ctx.request.body;
-	const company = new Company({
+	const company = new CompanyModel({
 		code
 	})
 

@@ -36,6 +36,5 @@ const CompanyModel = mongoose.model('Company', Company)
 
 
 module.exports = {
-	Company,
 	CompanyModel,
 }
