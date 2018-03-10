@@ -5,6 +5,7 @@ const Koa = require('koa')
 const Router = require('koa-router')
 const bodyParser = require('koa-bodyparser');
 const session = require('koa-session')
+const logger = require('koa-logger')
 
 const api = require('./api')
 
@@ -32,12 +33,17 @@ router.use('/api', api.routes())
 // 라우터 적용전에, bodyParser 적용
 app.use(bodyParser());
 
+
+// session
 const sessionConfig = {
   maxAge: 86500000, //하루
 }
 
 app.use(session(sessionConfig, app))
 app.keys = [signKey]
+
+// logger
+app.use(logger())
 
 // app 인스턴스에 라우터 적용
 app.use(router.routes())

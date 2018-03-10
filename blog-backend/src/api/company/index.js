@@ -1,13 +1,10 @@
 const Router = require('koa-router')
-const companysCtrl = require('./companys.ctrl')
+const companyCtrl = require('./companys.ctrl')
+const company = new Router()
 
-const companys = new Router()
+company.get('/', companyCtrl.list)
+company.post('/', companyCtrl.write)
+company.post('/:code', companyCtrl.update)
+company.get('/:code', companyCtrl.read)
 
-companys.get('/', companysCtrl.list)
-companys.post('/', companysCtrl.write)
-companys.get('/:code', companysCtrl.read)
-companys.delete('/:code', companysCtrl.remove)
-companys.put('/:code', companysCtrl.replace)
-companys.patch('/:code', companysCtrl.update)
-
-module.exports = companys
+module.exports = company

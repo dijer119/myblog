@@ -18,7 +18,36 @@ const Company = new Schema({
 	currentPrice: {
   	type: Number,
 	},
-
+	eps: {
+  	type: Number,
+	},
+	cnsEps: { //추정 EPS
+  	type: Number,
+	},
+	bps: {
+  	type: Number,
+	},
+	dividendPrice: {
+  	type: Number,
+	},
+	dividendRate:{
+  	type: Number,
+	},
+	gapType: {
+  	type: String,
+	},
+	gapPrice: {
+  	type: Number,
+	},
+	gapRate: {
+  	type: Number,
+	},
+	sigaTotal: {
+  	type: Number,
+	},
+	traceVolume: {
+  	type: Number,
+	},
 	tags: {
   	type: [String],
 	},
