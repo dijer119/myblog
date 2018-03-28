@@ -33,6 +33,9 @@ const Company = new Schema({
 	dividendRate:{
   	type: Number,
 	},
+	dividendDate:{
+    type: String,
+  },
 	gapType: {
   	type: String,
 	},
@@ -45,12 +48,15 @@ const Company = new Schema({
 	sigaTotal: {
   	type: Number,
 	},
-	traceVolume: {
+	tradeVolume: {
   	type: Number,
 	},
 	tags: {
   	type: [String],
 	},
+	like : {
+    type: Boolean
+  },
   createDate: {
     type: Date,
     default: new Date()
@@ -58,6 +64,9 @@ const Company = new Schema({
   modifiedDate: {
     type: Date,
     default: new Date()
+  },
+  comments: {
+    type: [{ type: Schema.Types.ObjectId, ref: 'Comment' }]
   }
 })
 

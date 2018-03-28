@@ -19,6 +19,7 @@ const {
 } = process.env
 
 mongoose.Promise = global.Promise// Node 의 Promise 를 사용 하도록 설정
+mongoose.set('debug', true)
 mongoose.connect(mongoURI).then(() => {
   console.log('connected to mongodb')
 }).catch((e) => {

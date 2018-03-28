@@ -10,7 +10,7 @@ const Comment = new Schema({
 	},
 	code: {
 		type: String,
-		required: true
+		index: true,
 	},
 	createDate: {
 		type: Date,
@@ -19,7 +19,10 @@ const Comment = new Schema({
 	modifiedDate: {
 		type: Date,
 		default: new Date()
-	}
+	},
+  company : {
+	  type: mongoose.Schema.Types.ObjectId, ref: 'Company'
+  }
 })
 
 const CommentModel = mongoose.model('Comment', Comment)

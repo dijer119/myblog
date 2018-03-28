@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { ListPage, PostPage, EditorPage, NotFoundPage, StockPage } from 'pages'
+import { ListPage, PostPage, EditorPage, NotFoundPage, StockPage, StockDetailPage } from 'pages'
 import Base from '../containers/common/Base'
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/post/:id" component={PostPage}/>
         <Route path="/editor" component={EditorPage}/>
         <Route path="/stock" component={StockPage} />
+        <Route path="/stock/:id" component={StockDetailPage}/>
         <Route component={NotFoundPage}/>
       </Switch>
       <Base/>

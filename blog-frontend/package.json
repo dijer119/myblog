@@ -16,6 +16,7 @@
     "chalk": "1.1.3",
     "classnames": "^2.2.5",
     "codemirror": "^5.34.0",
+    "comma-number": "^2.0.0",
     "css-loader": "0.28.7",
     "dotenv": "4.0.0",
     "dotenv-expand": "4.0.1",

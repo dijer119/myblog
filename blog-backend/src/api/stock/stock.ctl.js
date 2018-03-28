@@ -10,8 +10,8 @@ exports.list = async (ctx) => {
 
 
   try {
-    const companys = await CompanyModel.find(query)
-      .sort({ code: -1 })
+    const companies = await CompanyModel.find(query)
+      .sort({ sigaTotal: 1 })
       // .limit(10)
       // .skip((page - 1) * 10)
       .lean()
@@ -22,9 +22,9 @@ exports.list = async (ctx) => {
     //   body: post.body.length < 200 ? post.body : `${post.body.slice(0, 200)}...`
     // });
     // ctx.set 은 response headers 를 설정해줍니다.
-    ctx.set('Last-Page', Math.ceil(count / 10))
+    ctx.set('Last-Page', Math.ceil(count / 20))
     // ctx.body = posts.map(limitBodyLength)
-    ctx.body = companys
+    ctx.body = companies
   } catch (e) {
     ctx.throw(e, 500)
   }

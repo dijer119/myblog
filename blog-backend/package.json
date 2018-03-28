@@ -7,13 +7,15 @@
     "axios": "^0.18.0",
     "dotenv": "^4.0.0",
     "eslint": "^4.16.0",
+    "iconv": "^2.3.0",
     "joi": "^13.1.2",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-logger": "^3.1.0",
     "koa-router": "^7.3.0",
     "koa-session": "^5.8.1",
-    "mongoose": "^5.0.1"
+    "mongoose": "^5.0.1",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
@@ -21,11 +23,12 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.0",
     "jest": "^22.3.0",
-    "nodemon": "^1.14.11"
+    "nodemon": "^1.14.11",
+    "prettier": "^1.11.1"
   },
   "scripts": {
     "start": "NODE_PATH=src node src",
-    "start:dev": "NODE_PATH=src nodemon --watch src/ src/index.js",
+    "start:dev": "DEBUG=mquery NODE_PATH=src nodemon --watch src/ src/index.js",
     "test": "jest"
   }
 }
